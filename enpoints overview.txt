@@ -1,0 +1,35 @@
+POST /api-token-auth/ – Obtain token using username and password.
+TrackType
+
+GET /api/track-types/ – List all track types.
+
+POST /api/track-types/ – Create a new track type.
+
+ Album
+
+GET /api/albums/ – List all albums.
+
+POST /api/albums/ – Create a new album.
+
+Singer
+
+GET /api/singers/ – List all singers.
+
+POST /api/singers/ – Create a new singer.
+
+AudioTrack
+
+GET /api/audio-tracks/ – List all audio tracks.
+
+POST /api/audio-tracks/ – Create a new audio track.
+
+PUT /api/audio-tracks/<id>/ – Update an existing audio track.
+
+DELETE /api/audio-tracks/<id>/ – Delete an audio track.
+
+ Authentication
+
+All endpoints require token authentication.
+
+Use the header: Authorization: Token <your_token> in every request.
+
